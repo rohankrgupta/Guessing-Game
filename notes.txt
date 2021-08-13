@@ -1,0 +1,23 @@
+select an element through query selector -> message (here)
+console.log(document.querySelector('.message'));
+
+-> Document tree structure has several properties, such as textContent 
+console.log(document.querySelector('.message').textContent)
+
+What is DOM ? 
+
+-> Stands for Document object model
+
+-> It is stuctured representation of HTML Documents. Allows JS to access HTML elements & styles and manipulate themm 
+
+-> Connection pt b/w HTML documents and JS code
+
+-> DOM automatically created by browser as soon as page loads & stored in tree structure where each tree element is a HTML object. 
+
+-> Document object is the root of tree, has elements head & body and so on.
+
+-> Complete representation of HTML Document, for user manipulation in complex ways
+
+-> DOM methods and properties for DOM manipulation not part of JS but are part of WEB APIs
+
+-> WEB APIs are like JS libraries that browsers implement and we can access through JS code
